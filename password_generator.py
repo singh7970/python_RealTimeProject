@@ -1,7 +1,7 @@
-n = 7
+n = int(input("Enter length of password :"))
 import random
 s = "qwertyuiopasdfghjklzxcvbnm1234567890!@#$%&?/"
 for i in range(n):
     print(random.choice(s), end="")
-print()  # Add a newline character to move to the next line
+print('    ')  # Add a newline character to move to the next line
 
