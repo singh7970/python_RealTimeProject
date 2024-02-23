@@ -1,9 +1,4 @@
-# sum =0
-# for i in range(0,6):
-#     n=int(input("Enter the item price :"))
-#     sum=sum+n
 
-#     print("Total price",'$',sum) 
 sum=0
 while(True):
     user=input("Enter the item price or CLICK 'q' to quit:")
