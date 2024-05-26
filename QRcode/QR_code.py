@@ -11,4 +11,4 @@ import qrcode as qr
 with open('QRcode/basic_info.txt','r') as file:
    info=file.read()
    img=qr.make(info)
-   img.save('hello.png')
+   img.save('QRcode/dhoni.png')
