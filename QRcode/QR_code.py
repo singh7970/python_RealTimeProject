@@ -1,13 +1,13 @@
 import qrcode as qr
 
-h=qr.make("https://django-project-xdtk.onrender.com/")
-h.save("QRcode/web.png")
+# h=qr.make("HELLO akanksha kesi ho  sab thik na ")
+# h.save("QRcode/web.png")
 
 
 
-# import qrcode as qr
-# with open('QRcode/basic.html','r') as file:
-#     txt=file.read()
+import qrcode as qr
+with open('QRcode/basic.html','r') as file:
+    txt=file.read()
 
-# img=qr.make(txt)
-# img.save('txt.png')
+img=qr.make(txt)
+img.save('txt.png')
